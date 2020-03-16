@@ -27,6 +27,8 @@ Clone this repo to your local machine using `https://github.com/Re-01/chatApp.gi
 ```SASS/CSS3```
 ```JavaScript```
 ```Vue```
+```Node```
+```Socket```
 
 
 
