@@ -9,7 +9,7 @@ export default {
                 <span>{{ msg.message.name }} says:</span>
                 {{ msg.message.content }}
             </p>
-        </li>
+        
     `,
 
     data: function() {
