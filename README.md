@@ -1,5 +1,7 @@
 
 # Welcome to ICQ chatApp
+![icq-logo](https://user-images.githubusercontent.com/43250456/76781902-cca68d80-6785-11ea-96e8-ae6f74ca9c4b.png)
+
 
 > ICQ is a cross-platform instant messaging and VoIP client. The name ICQ derives from the English phrase "I Seek You". Originally developed by the Israeli company Mirabilis in 1996, the client was bought by AOL in 1998, and then by Mail.Ru Group in 2010.
 
