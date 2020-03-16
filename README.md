@@ -35,5 +35,5 @@ Clone this repo to your local machine using `https://github.com/Re-01/chatApp.gi
 
 
 ## References
-https://socket.io/
+- https://socket.io/
 
