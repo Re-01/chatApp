@@ -3,19 +3,27 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Socket IO Chat with Node!</title>
+	<title>ICQ Chat!</title>
 	<link rel="stylesheet" href="css/main.css">
 	<script src="https://unpkg.com/vue"></script>
+	<link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
 </head>
 
 <body>
 	<main id="app">
+		<header>
+			<div id="logo"></div>
+			<h1>Welcome back to</h1>
+			<img src="images/icq-logo.png" alt="logo">
+		</header>
+
+
 		<section class="form-container">
-			<label for="nickname">Your Nickname (optional)</label>
-			<input type="text" id="nickname" class="nickname" placeholder="What is your nickname?">
+			<label for="nickname">Nickname (optional)</label>
+			<input v-model="nickname" type="text" id="nickname" class="nickname" placeholder="What is your nickname?">
 
 			<form>
-				<label for="message">Something to say?</label>
+				<label for="message">Type your message:</label>
 				<textarea v-model="message" class="message" type="text" autocomplete="off" id="textarea"></textarea>
 				<input @click.prevent="dispatchMessage" type="submit">
 			</form>
@@ -27,6 +35,17 @@
 				<newmessage v-for="message in messages" :msg="message"></newmessage>
 			</ul>
 		</section>
+
+		<!-- lightbox -->
+		<section class="lightbox">
+				<div class="home">
+					<div class="icq"></div>
+					<h1>Hello! Welcome back to ICQ!</h1>
+					<img src="images/icq-logo.png" alt="logo" id="logo">
+					<button type="submit" class="startButton">Loading...</button>
+				</div>
+		</section>
+
 	</main>
 	<script src="/socket.io/socket.io.js"></script>
 	<script type="module" src="js/main_vm.js"></script>
