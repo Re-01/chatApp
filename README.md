@@ -9,7 +9,6 @@
 ## Table of Contents
 
 - [welcome](#welcome)
-- [checklist](#checklist)
 - [clone](#clone)
 - [built with](#builtwith)
 - [team](#team)
